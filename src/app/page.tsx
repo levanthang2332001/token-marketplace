@@ -8,6 +8,8 @@ import ButtonLink from '@/components/links/ButtonLink';
 import UnderlineLink from '@/components/links/UnderlineLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
+import Footer from '@/app/components/Footer';
+
 /**
  * SVGR Support
  * Caveat: No React Props Type.
@@ -64,6 +66,7 @@ export default function HomePage() {
               Theodorus Clarence
             </UnderlineLink>
           </footer>
+          <Footer />
         </div>
       </section>
     </main>
